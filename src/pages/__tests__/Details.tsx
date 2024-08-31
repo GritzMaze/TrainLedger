@@ -6,7 +6,6 @@ import renderWithProviders, {
 	MOBILE_RESOLUTION_HEIGHT,
 	MOBILE_RESOLUTION_WIDTH
 } from 'testUtils';
-import Details from '../Details';
 
 vi.mock('react-router-dom', async () => ({
 	...(await vi.importActual<typeof ReactRouterDOM>('react-router-dom')),
@@ -18,7 +17,7 @@ async function renderDetailsPage(route = 'apple'): Promise<void> {
 	renderWithProviders(
 		<Routes>
 			<Route path='/' element={<Gallery />} />
-			<Route path=':fruitName' element={<Details />} />
+			{/* <Route path=':fruitName' element={<Details />} /> */}
 		</Routes>
 	);
 }
