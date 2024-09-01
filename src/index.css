@@ -4,26 +4,26 @@
 
 @layer base {
 	@font-face {
-		font-family: Inter;
+		font-family: Lexend;
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url('/fonts/Inter-Regular.woff2') format('woff2');
+		src: url('/fonts/Lexend-Regular.ttf') format('truetype');
 	}
 
 	@font-face {
-		font-family: Inter;
+		font-family: Lexend;
 		font-style: normal;
 		font-weight: 500;
 		font-display: swap;
-		src: url('/fonts/Inter-Medium.woff2') format('woff2');
+		src: url('/fonts/Lexend-Medium.ttf') format('truetype');
 	}
 
 	@font-face {
-		font-family: Inter;
+		font-family: Lexend;
 		font-style: normal;
 		font-weight: 700;
 		font-display: swap;
-		src: url('/fonts/Inter-Bold.woff2') format('woff2');
+		src: url('/fonts/Lexend-Bold.ttf') format('truetype');
 	}
 }
